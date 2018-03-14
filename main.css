@@ -1,3 +1,7 @@
+div {
+    border: 1px solid green;
+}
+
 body {
     text-align: center;
 }
@@ -11,14 +15,45 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    width: 900px;
+    margin: 0 auto;
 }
 
-div {
-    border: 1px solid green;
+.grid-builder {
+    width: 100%;
+}
+
+.color-picker {
+    width: 100%;
+}
+
+.table-name{
+    width: 100%;
 }
 
 .grid-cell {
-    border: 1px solid black;
-    height: 10px;
-    width: 10px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    height: 15px;
+    width: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
+
+.cell-last{
+    border-right: 1px solid black;
+}
+
+.row-last{
+    border-bottom: 1px solid black;
+}
+.grid-row{
+    margin: 0 auto;
+    min-width: 12px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
