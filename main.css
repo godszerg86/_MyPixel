@@ -1,6 +1,4 @@
-div {
-    border: 1px solid green;
-}
+
 
 body {
     text-align: center;
@@ -15,10 +13,13 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
 }
 
+.input-style{
+    width: 70px;
+}
 .grid-builder {
     width: 100%;
 }
@@ -39,14 +40,6 @@ p {
     margin-right: 0px;
     margin-left: 0px;
 }
-
-.cell-last{
-    border-right: 1px solid black;
-}
-
-.row-last{
-    border-bottom: 1px solid black;
-}
 .grid-row{
     margin: 0 auto;
     min-width: 12px;
@@ -54,6 +47,14 @@ p {
     display: flex;
     justify-content: center;
     
+}
+
+.cell-last{
+    border-right: 1px solid black;
+}
+
+.row-last{
+    border-bottom: 1px solid black;
 }
 
 
